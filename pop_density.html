@@ -97,7 +97,7 @@
         map.getCanvas().style.cursor = 'default';
 
          async function geojsonFetch() { 
-            let response = await fetch('assets/state_data.geojson');
+            let response = await fetch('assets/stateData.geojson');
             let stateData = await response.json();
         
             map.on('load', function loadingData() {
